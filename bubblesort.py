@@ -9,18 +9,4 @@ def bubbleSort(array):
 
       # compare two adjacent elements
       
-      if array[j] > array[j + 1]:
 
-        # swapping elements if elements
-        
-        temp = array[j]
-        array[j] = array[j+1]
-        array[j+1] = temp
-
-
-req = [-2, 4, 0, 10, -6]
-
-bubbleSort(req)
-
-print('Sorted Array is following :')
-print(req)
